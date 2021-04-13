@@ -1,9 +1,8 @@
 module.exports = {
-  title: `harrycod's Blog`,
-  description: `Blog posted about ...`,
+  title: `Harrycod's Blog`,
+  description: `Blog for dev articles and travel assays`,
   author: `harrycod`,
-  introduction: `Frontend Developer @TagbyCompany
-  배우고 익힌 것을 공유합니다.`,
+  introduction: `Frontend Developer @TagbyCompany <br />배우고 익힌 것을 공유합니다.`,
   siteUrl: `https://harrycod.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
@@ -11,7 +10,7 @@ module.exports = {
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
-    instagram: `ddu_hyun`, // Your Instagram account
+    instagram: ``, // Your Instagram account
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],

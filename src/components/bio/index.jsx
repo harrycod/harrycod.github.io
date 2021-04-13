@@ -27,7 +27,7 @@ export const Bio = () => (
                 <Link to={'/about'} className="author-name-content">
                   <span>@{author}</span>
                 </Link>
-                <div className="author-introduction">{introduction}</div>
+                <div className="author-introduction" dangerouslySetInnerHTML={{__html: introduction}}></div>
                 <p className="author-socials">
                   {social.instagram && (
                     <a href={`https://www.instagram.com/${social.instagram}`}>
